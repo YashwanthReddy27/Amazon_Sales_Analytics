@@ -4,7 +4,7 @@
 1. About the data
    - The data consists of sales made by Amazon from 2015 to 2017.
    - Other data include calendar, customer information, category and subcategory of the products that were sold, price of the products, return information of the products, territory information about sales
-2. Different measures were created as needed, mentioned so you can create one according to your needs.
+2. Different measures were created as needed for the project, mentioned so you can create one according to your needs.
    ```
       PowerBI
       Total cost = Sum(AM_Sales[Purchase cost])
@@ -97,8 +97,15 @@
    ```
       Total Returns = Sum(Amazon_Returns[ReturnQuantity])
    ```
-      
-     
+##Toggle 
+For creating a toggle between profit and loss, there's a new table added to the data with profit and loss as row values with the column being 'values.'
+#Visualization
+##Page1
+On this page, you can see
+1. Table: showing the customer's full names with the total profit they contributed
+2. Table 2: product key with opportunity lost information
+3. Table 3: This table shows category names along with the model name and the total no of orders with a dynamic profit/loss column and return rate
+The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer affects all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table or not. 
    
  
 
