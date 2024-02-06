@@ -105,7 +105,7 @@ On this page, you can see
 1. Table: showing the customer's full names with the total profit they contributed
 2. Table 2: product key with opportunity lost information
 3. Table 3: This table shows category names along with the model name and the total no of orders with a dynamic profit/loss column and return rate
-The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer affects all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table or not. 
+   - The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer affects all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table or not. 
    
  
 
