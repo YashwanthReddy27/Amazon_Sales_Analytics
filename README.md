@@ -105,7 +105,13 @@ On this page, you can see
 2. Table 2: product key with opportunity lost information
 3. Table 3: This table shows category names along with the model name and the total no of orders with a dynamic profit/loss column and return rate
    - The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer affects all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table or not. 
-   
+## Page2
+On this page, you can see
+Concentration on product information
+1. Total orders based on category name, sub-category name and product distribution by profit/loss
+2. Total profit, total orders and total returns for the month and year are chosen, and the goal in this visual indicates if the sales for this month are met or not
+3. Top  3 performers/losers products and the orders from different territories of the world
+- To get the filter page ctrl+left click you will get the filter page to change month and year, to go back ctrl+left click outside that page
  
 
 
