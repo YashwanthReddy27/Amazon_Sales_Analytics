@@ -3,7 +3,7 @@
 1. About the data
    - The data consists of sales made by Amazon from 2015 to 2017.
    - Other data include calendar, customer information, category and subcategory of the products that were sold, price of the products, return information of the products, territory information about sales
-2. Different measures were created as needed for the project, mentioned so you can create one according to your needs.
+2. Different measures were created as needed for the project, so you can create one according to your needs.
    ```
       PowerBI
       Total cost = Sum(AM_Sales[Purchase cost])
@@ -59,7 +59,7 @@
       Full Name = Amazon_Customers[FirstName]&" "&Amazon_Customers[LastName]
    ```
     ```
-      Parent = IF(Amazon_Customers[TotalChildren]>0,"Yes","No") 
+      Parent = IF(Amazon_Customers[TotalChildren]>0, "Yes", "No") 
    ```
     ```
      Avg Retail Price = AVERAGE(Amazon_Products[ProductPrice])
@@ -97,21 +97,27 @@
       Total Returns = Sum(Amazon_Returns[ReturnQuantity])
    ```
 ## Toggle 
-For creating a toggle between profit and loss, there's a new table added to the data with profit and loss as row values with the column being 'values.'
+For creating a toggle between profit and loss, there's a new table added to the data with profit and loss as row values, with the column being 'values.'
 #Visualization
 ## Page1
 On this page, you can see
 1. Table: showing the customer's full names with the total profit they contributed
 2. Table 2: product key with opportunity lost information
 3. Table 3: This table shows category names along with the model name and the total no of orders with a dynamic profit/loss column and return rate
-   - The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer affects all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table or not. 
+   - The profit/opportunity loss toggle affects only Table 3 where, whereas the month and year slicer simulates all the tables on the page. You can change this by selecting the filter you want and going to format-->edit interactions--> Now, on every table, you can see three options: select/deselect the rightmost one whether you want this filter to affect this table. 
 ## Page2
 On this page, you can see
 Concentration on product information
-1. Total orders based on category name, sub-category name and product distribution by profit/loss
+1. Total orders based on category name, subcategory name and product distribution by profit/loss
 2. Total profit, total orders and total returns for the month and year are chosen, and the goal in this visual indicates if the sales for this month are met or not
 3. Top  3 performers/losers products and the orders from different territories of the world
-- To get the filter page ctrl+left click you will get the filter page to change month and year, to go back ctrl+left click outside that page
- 
+- To get the filter page, ctrl+left click on the top rightmost image. You will get the filter page to change the month and year. To go back, ctrl+left click outside that page
+## Page3
+On this page, you can see
+Concentration on customer information
+1. Total orders based on customer occupation level, annual income of customers and info about the category and subcategory products purchased
+2. Total profit, total orders and total returns for the month and year are chosen, and the goal in this visual indicates if the sales for this month are met or not based on age   
+3. Top  3 performers/losers age groups and the age slicer to know which age group to target for what product
+- To get the filter page, ctrl+left click on the top left-most image. You will get the filter page to change the month and year. To go back, ctrl+left click outside that page
 
 
