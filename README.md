@@ -3,7 +3,7 @@
 1. About the data
    - The data consists of sales made by Amazon from 2015 to 2017.
    - Other data include calendar, customer information, category and subcategory of the products that were sold, price of the products, return information of the products, territory information about sales
-2. Different measures were created as needed for the project, so you can create one according to your needs.
+2. Different measures were created as needed for the project so that you can create one according to your needs.
    ```
       PowerBI
       Total cost = Sum(AM_Sales[Purchase cost])
